@@ -22,7 +22,7 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", 6020886539))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002273742602))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002273742602))
 
 # Get this value Telegram id
